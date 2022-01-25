@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 100%;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("https://wallpaperaccess.com/full/3096660.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: system-ui;
+    color: #555;
+    background-color: #f7f7f7;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+.input-group>.form-control {
+    font-size: 2rem;
+}
